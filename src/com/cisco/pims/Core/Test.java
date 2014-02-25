@@ -42,7 +42,7 @@ public class Test {
 			con = client.connect(
 				"jdbc:sqlserver://173.36.28.36\\QMXSQL1:51005;databaseName=PIMS",
 				"pimsdb", "Pimsdb!");
-		con1 = client.connect("jdbc:cassandra://localhost:9160/pims", "", "");
+		con1 = client.connect("jdbc:cassandra://rcdn9-ats-cas5:22/apeg_poc", "cassandra", "cassandra");
 			String readQuery = null;
 //			PIMS_CONFIG
 //			readQuery = "select * from dbo.PIMS_config";

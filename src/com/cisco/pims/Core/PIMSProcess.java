@@ -52,8 +52,7 @@ public static void main(String args[]) {
 			batchid = Integer.parseInt(args[1]);
 		} else
 			processName = "50_70";
-		BasicConfigurator.configure();
-		try {
+		BasicConfigurator.configure();		try {
 			inStream = PIMSProcess.class
 					.getResourceAsStream("PIMSProperties.properties");
 				propFile.load(inStream);
